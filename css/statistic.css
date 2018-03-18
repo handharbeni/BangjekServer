@@ -1,0 +1,115 @@
+#panel_statistic{
+	padding: 66px 16px 00px 16px;
+	margin-bottom: 100px;
+}
+#daily{	background: #ffffff;
+	border: solid #000000 1px;
+	height: 262px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: auto;
+	padding: 16px;
+	width: auto;
+}
+#weekly{	background: #ffffff;
+	border: solid #000000 1px;
+	float: left;
+	height: 262px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: auto;
+	padding: 16px;
+	width: 30%;
+}
+#monthly{	background: #ffffff;
+	border: solid #000000 1px;
+	float: right;
+	height: 262px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: auto;
+	padding: 16px;
+	width: 60%;
+}
+#yearly{	background: #ffffff;
+	border: solid #000000 1px;
+	float: left;
+	height: 262px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: auto;
+	padding: 16px;
+	width: 25%;
+}
+#legend{
+	background: rgba(255,255,255,0.5);
+	border: solid #000000 1px;
+	bottom: 0px;
+	box-shadow: #bec3c7 0px 0px 10px;
+	height: auto;
+	margin: 16px;
+	position: fixed;
+	overflow: auto;
+	padding: 16px;
+	right: 0;
+	width: 200px;
+	z-index: 999;
+}
+#daily table,#weekly table,#monthly table,#yearly table{
+	height: 240px;
+}
+.brick{
+	display: none;
+	overflow: hidden;
+	position: bottom;
+	width: 14px;
+}
+.brick_text{
+	font-size: 12px;
+	transform: rotate(90deg);
+	padding-bottom: 2px;
+}
+#menu_statistic{
+	border: solid 1px;
+	float: right;
+	padding: 5px;
+	width: 200px;
+}
+#menu_statistic a{
+	color: #222222;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+}
+#menu_statistic a:hover{
+	text-decoration: underline;
+}
+.red{
+	background: #e84c3d;
+	box-shadow: #fd5140 0px 5px 5px;
+}
+.orange{
+	background: #e67f22;
+	box-shadow: #ff8b26 0px 5px 5px;
+}
+.yellow{
+	background: #f1c50e;
+	box-shadow: #ffd00e 0px 5px 5px;
+}
+.green{
+	background: #53d78b;
+	box-shadow: #60ffa3 0px 5px 5px;
+}
+.blue{
+	background: #2c97df;
+	box-shadow: #2fabff 0px 5px 5px;
+}
+.violet{
+	background: #9c56b8;
+	box-shadow: #d878ff 0px 5px 5px;
+}
+.pink{
+	background: pink;
+	box-shadow: #f4d8ff 0px 5px 5px;
+}

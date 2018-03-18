@@ -1,0 +1,22 @@
+body{
+	background: #f69101;
+	font-family: calibri;
+	margin: 0px;
+}
+#wrapper{
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+table{
+	height: auto;
+	margin-top: 200px;
+	width: 232px;
+}
+input{
+	border: solid lightgray 1px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 16px;
+	width: 100%;
+}

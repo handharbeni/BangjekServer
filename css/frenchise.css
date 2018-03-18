@@ -1,0 +1,104 @@
+body{
+	font-family: "Calibri";
+	margin: 0px;
+}
+#profile{
+	margin-bottom: 16px;
+	padding: 16px;
+}
+.title{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	padding-top: 16px;
+	text-align: center;
+	width: 100%;
+}
+
+#tarif{
+	margin-bottom: 16px;
+	padding: 16px;	width: 100%;
+}
+th{
+	background: gray;
+	color: white;
+}
+.zebra{
+	background: lightgray;
+}
+.background_blue{
+	background: #154360;
+	color: #ffffff;
+	padding-top: 16px;
+}
+#monthly{
+	background: #154360;
+	color: #ffffff;
+	float: right;
+	height: 262px;
+	margin-bottom: 8px;
+	overflow: auto;
+	width: 100%;
+}
+#monthly table{
+	height: 240px;
+}
+.brick{
+	border-radius: 5px 5px;
+	overflow: hidden;
+	position: bottom;
+	width: 20px;
+}
+.brick_text{
+	font-size: 12px;
+	transform: rotate(90deg);
+	padding-left: 8px;
+	padding-bottom: 2px;
+}
+.red{
+	background: #e84c3d;
+	box-shadow: #fd5140 0px 5px 5px;
+}
+.orange{
+	background: #e67f22;
+	box-shadow: #ff8b26 0px 5px 5px;
+}
+.yellow{
+	background: #f1c50e;
+	box-shadow: #ffd00e 0px 5px 5px;
+}
+.green{
+	background: #53d78b;
+	box-shadow: #60ffa3 0px 5px 5px;
+}
+.blue{
+	background: #2c97df;
+	box-shadow: #2fabff 0px 5px 5px;
+}
+.violet{
+	background: #9c56b8;
+	box-shadow: #d878ff 0px 5px 5px;
+}
+.pink{
+	background: pink;
+	box-shadow: #f4d8ff 0px 5px 5px;
+}
+
+#pendapatan{
+	padding: 32px 16px 48px 16px;
+}
+#nominal{
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+#record{
+	background: #154360;
+	width: 100%;
+}
+#record table{
+	padding: 0px 16px 16px 16px;
+}
+#record .title{
+	color: #ffffff;
+}

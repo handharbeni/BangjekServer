@@ -1,0 +1,18 @@
+body{
+	margin: 0px;
+}
+#wrapper{
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+#slide{
+	height: 100%;
+	position: relative;
+	width: 400%;
+}
+#slide td{
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
